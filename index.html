@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content = "width=device-width,initial-scale=1.0">
+
+    <link rel="icon" type="img/png" size ="32x32" href="assets\images\favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div class="outer-container">
+        <div class="container">
+          <div class="top-box">
+              <div class="dates-container">
+                <div class="date-box">
+                  <span class="title">DAY</span>
+                  <input type="text" id ="day" placeholder="DD">
+                  <span class="error-message"></span>
+                </div>
+                <div class="date-box">
+                  <span class="title">MONTH</span>
+                  <input type="text" id ="month" placeholder="MM">
+                  <span class="error-message"></span>
+                </div>
+                <div class="date-box">
+                  <span class="title">YEAR</span>
+                  <input type="text" id ="year" placeholder="YYYY">
+                  <span class="error-message"></span>
+                </div>
+              </div>
+          </div>
+          <div class="bottom-box">
+            <div class="result">
+              <span id="years">--</span><span> years</span>
+            </div>
+            <div class="result">
+              <span id="months">--</span><span> months</span>
+            </div>
+            <div class="result">
+              <span id="days">--</span><span> days</span>
+            </div>
+          </div>
+        </div>
+        <button class = "arrow" id = "btn" aria-label="submit"><img src="assets\images\icon-arrow.svg" alt="submit"></button>
+    </div>
+    <script src ="script.js"></script>
+  </body>
+</html>
